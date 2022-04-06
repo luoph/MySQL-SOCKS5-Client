@@ -23,10 +23,10 @@ MySQL-SOCKS5-client是一款使用socks5协议的数据库代理工具
 [
   {
     "name": "xxx源",                        # 目标源名称
-    "socks5_server_ip": "172.18.12.70",     # socks5服务器的ip
-    "socks5_server_port": "10080",          # socks5服务器的端口
-    "mysql_ip": "10.104.20.42",             # 远程MySQL的地址（远程socks5服务器能连的ip）
-    "mysql_port": "3306",                   # 程MySQL的端口
+    "socks5_ip": "172.18.12.70",     # socks5服务器的ip
+    "socks5_port": "10080",          # socks5服务器的端口
+    "service_ip": "10.104.20.42",             # 远程MySQL的地址（远程socks5服务器能连的ip）
+    "service_port": "3306",                   # 程MySQL的端口
     "listen_addr": "0.0.0.0",               # 本地监听的地址
     "listen_port": "6666"                   # 本地监听的端口
   },

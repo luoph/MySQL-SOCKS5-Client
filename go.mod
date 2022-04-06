@@ -1,3 +1,3 @@
-module mysql-socks5-proxy
+module remote-service-proxy
 
 go 1.15
